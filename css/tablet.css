@@ -1,0 +1,36 @@
+@media (min-width:786px) and (max-width:1024px) {
+    * {
+        /* padding: 0px; */
+        margin: 0 ;
+        box-sizing: border-box;
+    }
+    .text-nav{
+        display: none;
+    }
+    #nav-bar a:link, a:visited {
+        padding: 16px;
+        margin-right: 1rem;
+        padding-bottom: 30px;
+    }
+    #nav-bar{
+        margin-top: 1rem;
+    }
+    #personal-info{
+        font-size: 16px;
+        padding-right: 40px;
+    }
+    #target{
+        font-size: 16px;
+    }
+    .job-grid{
+        display: grid !important ;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 40px;
+        row-gap: 20px;
+        align-items: start;
+    }
+    .cer-content{
+        display: flex;
+        gap: 20px;
+    }
+}

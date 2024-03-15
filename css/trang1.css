@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+    line-height: 1.7;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 15pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+    padding: 40px
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #adb5bd;
+    padding-bottom: 16px;
+}
+
+#ten{
+    color: #0e2452;
+    font-size: 250%;
+}
+
+.thongtin{
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#info{
+    position: relative;
+}
+
+#avt{
+    position:absolute;
+    width: 23%;
+    top:0px;
+    right: 0px
+}
+
+.flex{
+    display: flex;
+    column-gap: 150px;
+    border-bottom: 2px solid #f1f1f1;
+    padding: 4px;
+}
+.tg{
+    font-size: 100%;
+}
+.section-content{
+    list-style-type: none;
+}
+#cham{
+    position: relative;
+    margin: 0;
+    padding-left: 20px;
+}
+#cham:after {
+    content: '';
+    position: absolute;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%; 
+    left: 0;
+    top: 13px;
+    width: 8px;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color: #3eb8ff
+}
+/* di chuột vào phóng to */
+a:hover,a:active{
+    font-size: 28px;
+ cursor: pointer;  
+ 
+}
